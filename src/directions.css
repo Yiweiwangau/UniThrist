@@ -1,0 +1,30 @@
+.top {
+  display: flex;
+}
+
+.info {
+  width: 75%;
+  font-size: 0.9em;
+}
+
+.info-row {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.duration {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 1.2em;
+  width: 20%;
+}
+
+.location {
+  margin-top: 20px;
+}
+
+.direction-icon {
+  margin-top: 45px;
+}

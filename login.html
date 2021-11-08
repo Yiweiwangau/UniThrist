@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="src/styles.css" />
+  <link rel="stylesheet" href="src/register.css" />
+  <script src="https://kit.fontawesome.com/2d623d23b1.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" />
+</head>
+
+<body id="body">
+  <div class="wrapper">
+    <div id="header"></div>
+    <div class="content">
+      <div class="wrap">
+        <div id="ralph-cafe" class="container">
+          <p><a class="nav-link" href="index.html">Home</a> > Login</p>
+          <div id="ralph-cafe" class="top">
+            <h3 class="sub-title">Login</h3>
+            <form id="login-form">
+              <div class="center">
+                <table>
+                  <tr>
+                    <td>Email:</td>
+                    <td><input type="text" name="username" id="username"></td>
+                  </tr>
+                  <tr>
+                    <td>Password:</td>
+                    <td><input type="password" name="pwd" id="pwd"></td>
+                  </tr>
+                </table>
+              </div>
+              <div class="center">
+                <input type="submit" id="login-button" class="button" onsubmit="login()" value="Login">
+              </div>
+          </div>
+          </form>
+          <div class="center">
+            <div style="margin-top: 70px;">New to UniThirstQ?&nbsp;&nbsp;&nbsp;<a style="color:#46b1ff"
+                href="register.html">Register here.</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer"></div>
+  </div>
+</body>
+<script src="src/all.js"></script>
+<script src="src/login.js"></script>
+
+</html>

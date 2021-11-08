@@ -1,0 +1,17 @@
+.info-table{
+  text-align: left;
+  margin-top:20px;
+  margin-bottom: 20px;
+
+}
+.table-title{
+  font-size: 20px;
+  color: #6385fe
+}
+.table-caption{
+  text-align: left;
+  font-weight: bold;
+  color: #2d5bff;
+  padding-bottom: 10px;
+  padding-left: 3px;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="src/styles.css" />
+  <link rel="stylesheet" href="src/report_issue.css" />
+  <script src="https://kit.fontawesome.com/2d623d23b1.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" />
+</head>
+
+<body id="body">
+  <div class="wrapper">
+    <div id="header"></div>
+    <div class="content">
+      <div class="wrap">
+        <div id="ralph-cafe" class="container">
+          <p>
+            <a class="nav-link" href="index.html">Home</a> >
+            <a class="nav-link" href="cafe.html">Cafe</a> >
+            <a class="nav-link" href="location_detail.html">Ralph's Cafe</a> >
+            Report Issue
+          </p>
+          <div id="ralph-cafe" class="top">
+            <h3 class="sub-title">Report Issue</h3>
+            <div class="issue-type">
+              <b>Issue Type:</b>
+              <div class="option">
+                <input type="radio" id="broken-facility" name="issue-type" />
+                <label for="broken-facility">Broken facility</label>
+              </div>
+              <div class="option">
+                <input type="radio" id="long-queue" name="issue-type" />
+                <label for="long-queue">Long queue</label>
+              </div>
+              <div class="option">
+                <input type="radio" id="other" name="issue-type" />
+                <label for="other">Other</label>
+              </div>
+            </div>
+            <div><b>Note:</b></div>
+            <br />
+            <textarea></textarea>
+            <div class="center">
+              <div id="report-issue" class="button">
+                Report Issue
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer"></div>
+  </div>
+</body>
+<script src="src/all.js"></script>
+<script src="src/report_issue.js"></script>
+
+</html>

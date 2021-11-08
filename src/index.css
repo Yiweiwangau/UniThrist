@@ -1,0 +1,49 @@
+#title-div {
+  padding: 30px;
+  height: 35vh;
+  margin-left: 5%;
+  display: flex;
+}
+
+#location-type {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.type-button {
+  background-color: white;
+  padding: 10px;
+  width: 180px;
+  height: 80px;
+  margin: 10px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+}
+
+.type-button:hover {
+  cursor: default;
+  color: white;
+  background-color: #46b1ff;
+  box-shadow: 0px 15px 20px #63beff;
+}
+
+.active {
+  background-color: #46b1ff;
+  color: white;
+}
+
+#search-div {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+#search-button {
+  margin-top: 30px;
+}

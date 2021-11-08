@@ -1,0 +1,14 @@
+.issue-type {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.option {
+  margin-left: 20px;
+}
+
+#report-issue {
+  margin-top: 30px;
+}
